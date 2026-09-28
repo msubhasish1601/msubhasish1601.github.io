@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Optional: keep the Resumes folder but don't track PDF changes unless intended
+# Uncomment to exclude the original Resumes folder (asset copy is in assets/resume/)
+# Resumes/
