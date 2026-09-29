@@ -1,6 +1,6 @@
 # Subhasish Mukherjee — Developer Portfolio
 
-**Live Site:** https://msubhasish1601.github.io/MyPortfolio/
+**Live Site:** https://msubhasish1601.github.io/
 
 A premium, recruiter-focused personal developer portfolio for **Subhasish Mukherjee** — Senior Full-Stack Software Developer & AI Engineer with 22+ years of engineering experience.
 

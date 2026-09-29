@@ -4,7 +4,7 @@
 
 **Senior Full-Stack & Backend Developer &nbsp;·&nbsp; 22 Years Experience &nbsp;·&nbsp; Available for Freelance**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-msubhasish1601.github.io%2FMyPortfolio-blue?style=for-the-badge&logo=github)](https://msubhasish1601.github.io/MyPortfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-msubhasish1601.github.io-blue?style=for-the-badge&logo=github)](https://msubhasish1601.github.io/)
 [![Email](https://img.shields.io/badge/Email-m.subhasish%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m.subhasish@gmail.com?subject=Freelance%20Project)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/subhasish-mukherjee-6110764a)
 
@@ -73,6 +73,6 @@ I specialise in building **scalable APIs, complex web applications, database-hea
 
 <div align="center">
 
-**Kolkata, India &nbsp;·&nbsp; Remote Worldwide &nbsp;·&nbsp; [Portfolio](https://msubhasish1601.github.io/MyPortfolio/) &nbsp;·&nbsp; [m.subhasish@gmail.com](mailto:m.subhasish@gmail.com)**
+**Kolkata, India &nbsp;·&nbsp; Remote Worldwide &nbsp;·&nbsp; [Portfolio](https://msubhasish1601.github.io/) &nbsp;·&nbsp; [m.subhasish@gmail.com](mailto:m.subhasish@gmail.com)**
 
 </div>
