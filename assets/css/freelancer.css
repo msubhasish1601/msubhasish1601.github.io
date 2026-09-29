@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ══════════════════════════════════════════════════════════════
    FREELANCER SECTIONS — Complete CSS
    Professional, sober, well-spaced design
@@ -218,15 +219,17 @@
 }
 
 .service-features li::before {
-  content: '&#x2022;';
+  content: '';
   position: absolute;
   left: 0;
-  color: var(--accent);
-  font-size: 0.7rem;
-  top: 0.2rem;
+  top: 0.5rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
-.service-features--ai li::before { color: var(--accent-ai); }
+.service-features--ai li::before { background: var(--accent-ai); }
 
 .service-card__cta {
   display: inline-flex;

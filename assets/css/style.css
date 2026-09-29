@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ══════════════════════════════════════════════════════════════
    SUBHASISH MUKHERJEE — PORTFOLIO STYLES
    Version: 1.0.0
@@ -1753,9 +1754,14 @@ button {
 }
 
 .compare-col li::before {
-  content: '·';
+  content: '';
   position: absolute;
   left: 0.25rem;
+  top: 0.5rem;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--text-muted);
 }
 
 .compare-col--highlight li { color: var(--text-secondary); }
