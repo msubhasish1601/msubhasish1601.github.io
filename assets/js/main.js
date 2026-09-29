@@ -278,12 +278,6 @@ document.querySelectorAll('.timeline-card').forEach(card => {
    Animate hero on load (initial state).
 ──────────────────────────────────────────────────────────── */
 window.addEventListener('load', () => {
-  // Trigger initial hero animations by adding a tiny delay
-  document.querySelectorAll('.hero .reveal-up, .hero .reveal-right').forEach(el => {
-    // These will be picked up by the IntersectionObserver
-    // since they are already in viewport
-  });
-
   // Force reveal of elements already in viewport
   revealElements.forEach(el => {
     const rect = el.getBoundingClientRect();
@@ -292,3 +286,27 @@ window.addEventListener('load', () => {
     }
   });
 });
+
+/* ────────────────────────────────────────────────────────────
+   AVAILABILITY BANNER CLOSE
+──────────────────────────────────────────────────────────── */
+(function initBanner() {
+  const banner  = document.getElementById('availBanner');
+  const closeBtn = document.getElementById('availClose');
+  if (!banner || !closeBtn) return;
+
+  // Hide if previously dismissed
+  if (sessionStorage.getItem('bannerDismissed')) {
+    banner.style.display = 'none';
+  }
+
+  closeBtn.addEventListener('click', () => {
+    banner.style.transition = 'opacity 0.3s, max-height 0.4s';
+    banner.style.opacity    = '0';
+    banner.style.maxHeight  = '0';
+    banner.style.overflow   = 'hidden';
+    banner.style.padding    = '0';
+    setTimeout(() => { banner.style.display = 'none'; }, 400);
+    sessionStorage.setItem('bannerDismissed', '1');
+  });
+})();
